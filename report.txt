@@ -1,10 +1,9 @@
 Testing ocr
-  	mm ocr - 
-  	
   	easy ocr - 
         	The model does predict a normal text but prediction is bad at handwritten text. 
            
 	paddle ocr-
 		the model does a good job in normal handwritten text but not good at cursive handwritting
 		
-	tesseract
+	tesseract ocr -
+        	The model does predict a normal text but prediction is below average at handwritten text. 
