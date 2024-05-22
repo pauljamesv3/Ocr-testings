@@ -1,9 +1,20 @@
-Testing ocr
-  	easy ocr - 
-        	The model does predict a normal text but prediction is bad at handwritten text. 
-           
-	paddle ocr-
-		the model does a good job in normal handwritten text but not good at cursive handwritting
+
+easy ocr - 
+		The model does predict a normal text but prediction is bad at handwritten text. 
+		The time taken to run the model was in the average of 2.79846433 seconds
 		
-	tesseract ocr -
-        	The model does predict a normal text but prediction is below average at handwritten text. 
+paddle ocr-
+	the model does a good job in normal handwritten text but not good at cursive handwritting
+	The time taken to run the model was in the average of 1.573355556 seconds
+	
+tesseract ocr -
+		The model does predict a normal text but prediction is below average at handwritten text. 
+		The time taken to run the model was in the average of 0.952336629 seconds
+
+mmocr - 
+	The model perform below average of 55 to 65 percent accuracy. 
+	the time taken to run the model was in the average of 221.055006186 seconds
+
+keras ocr - 
+	The model is below average, it's not good enough for handwritten text 
+	And the time taken to run the model was in the average of 87.715920031 seconds
